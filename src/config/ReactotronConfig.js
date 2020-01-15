@@ -9,7 +9,7 @@ if (__DEV__) {
     .useReactNative()
     .use(reactotronRedux())
     .use(reactotronSaga())
-    .connect();
+    .connect({ host: '192.168.0.106' });
 
   tron.clear();
 

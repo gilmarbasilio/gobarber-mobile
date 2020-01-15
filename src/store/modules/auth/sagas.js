@@ -48,7 +48,6 @@ export function* singnUp({ payload }) {
       name,
       email,
       password,
-      provider: true,
     });
 
     // history.push('/');
