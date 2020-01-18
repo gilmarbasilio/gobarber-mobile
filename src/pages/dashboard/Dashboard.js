@@ -3,10 +3,16 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Background from '~/components/background/Background';
 
-// import { Container } from './styles';
+import { Container, Title } from './styles';
 
 export default function Dashboard() {
-  return <Background />;
+  return (
+    <Background>
+      <Container>
+        <Title>Agendamentos</Title>
+      </Container>
+    </Background>
+  );
 }
 
 Dashboard.navigationOptions = {
